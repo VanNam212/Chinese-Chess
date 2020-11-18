@@ -1,0 +1,22 @@
+#myCanvas{
+    background-image: url('./img/bg.png');
+    width: 507px;
+    height: 567px;
+    position: relative;
+    z-index: 1;
+}
+.piece{
+    z-index: 2;
+    position: absolute;
+    background: none;
+    width: 54px;
+    height: 54px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    /* background-image: url('./img/r_c.png'); */
+}
+.justify{
+    display: flex;
+    justify-content: center;
+}
